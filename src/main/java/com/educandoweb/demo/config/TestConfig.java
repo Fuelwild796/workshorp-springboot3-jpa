@@ -52,10 +52,16 @@ public class TestConfig implements CommandLineRunner {
         Product p5 = new Product(null, "Rails for Dummies", "Cras fringilla convallis sem vel faucibus.", 100.99, "");
 
 
-
         userRepository.saveAll(Arrays.asList(u1,u2));
         orderReposiroty.saveAll(Arrays.asList(o1,o2,o3));
         categoryRepository.saveAll(Arrays.asList(c1,c2,c3));
+        productRepository.saveAll(Arrays.asList(p1,p2,p3,p4,p5));
+
+        //associação entre objetos ManyToMany
+        p1.getCategories().add(c2);
+        p2.getCategories().add(c1);
+        p2.getCategories().add(c3);
+
         productRepository.saveAll(Arrays.asList(p1,p2,p3,p4,p5));
     }
 
