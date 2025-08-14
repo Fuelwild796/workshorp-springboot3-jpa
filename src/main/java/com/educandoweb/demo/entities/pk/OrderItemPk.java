@@ -2,6 +2,7 @@ package com.educandoweb.demo.entities.pk;
 
 import com.educandoweb.demo.entities.Order;
 import com.educandoweb.demo.entities.Product;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.JoinColumn;
