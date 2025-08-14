@@ -95,6 +95,14 @@ public class Order implements Serializable {
         this.payment = payment;
     }
 
+    public Double getTotal(){
+        double soma =0.0;
+        for(OrderItem item : items){
+            soma += item.getSubtotal();
+        }
+        return soma;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
