@@ -13,7 +13,7 @@ import java.net.URI;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/users")
+@RequestMapping(value = "/user")
 public class UserResource {
 
     @Autowired
@@ -44,6 +44,12 @@ public class UserResource {
     public ResponseEntity<Void> delete(@PathVariable Long id){
         Service.delete(id);
         return ResponseEntity.noContent().build();
+    }
+
+    @PutMapping(value = "/{id}")
+    public ResponseEntity<User> update(@PathVariable Long id, @RequestBody User obj){
+        obj = Service.update(id, obj);
+        return  ResponseEntity.ok().body(obj);
     }
 
 
