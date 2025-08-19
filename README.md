@@ -1,4 +1,5 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7f2c72d1-3827-4457-8c69-d8d6e9ad2fee" /># 📦 Projeto Spring Boot – Sistema de Pedidos
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7f2c72d1-3827-4457-8c69-d8d6e9ad2fee" />
+## 📦 Projeto Spring Boot – Sistema de Pedidos
 
 ## 🚀 Meu **primeiro projeto com Spring Boot**, aplicando conceitos de **Java, JPA/Hibernate, API RESTful e arquitetura em camadas**.  
 O objetivo foi criar uma aplicação backend para gerenciamento de usuários, pedidos, produtos e categorias.  
