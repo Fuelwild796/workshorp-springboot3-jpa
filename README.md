@@ -1,4 +1,4 @@
-# 📦 Projeto Spring Boot – Sistema de Pedidos
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7f2c72d1-3827-4457-8c69-d8d6e9ad2fee" /># 📦 Projeto Spring Boot – Sistema de Pedidos
 
 🚀 Meu **primeiro projeto com Spring Boot**, aplicando conceitos de **Java, JPA/Hibernate, API RESTful e arquitetura em camadas**.  
 O objetivo foi criar uma aplicação backend para gerenciamento de usuários, pedidos, produtos e categorias.  
@@ -62,15 +62,15 @@ Buscar pedido por ID → GET http://localhost:8080/orders/1
 
 **Este projeto me permitiu praticar e consolidar:**
 
-**-Programação Orientada a Objetos (POO)**
+- **Programação Orientada a Objetos (POO)**
 
-**-Arquitetura em camadas (Controller → Service → Repository)**
+- **Arquitetura em camadas (Controller → Service → Repository)**
 
-**-Modelagem de relacionamentos complexos entre entidades**
+- **Modelagem de relacionamentos complexos entre entidades**
 
-**-Uso do Spring Boot + JPA/Hibernate para integração com banco de dados**
+- **Uso do Spring Boot + JPA/Hibernate para integração com banco de dados**
 
-**-Tratamento de exceções e boas práticas em APIs RESTful**
+- **Tratamento de exceções e boas práticas em APIs RESTful**
 
 📌 **Próximos Passos**
 
