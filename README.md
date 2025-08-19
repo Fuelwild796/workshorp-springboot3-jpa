@@ -58,7 +58,7 @@ Buscar pedido por ID → GET http://localhost:8080/orders/1
          ├── resources       # Controladores REST (endpoints da API)
          └── config          # Configuração inicial (seed de dados)
 
-🚀 **Aprendizados**
+## 🚀 **Aprendizados**
 
 **Este projeto me permitiu praticar e consolidar:**
 
@@ -72,15 +72,15 @@ Buscar pedido por ID → GET http://localhost:8080/orders/1
 
 - **Tratamento de exceções e boas práticas em APIs RESTful**
 
-📌 **Próximos Passos**
+## 📌 **Próximos Passos**
 
-🔗 **Integrar com banco de dados relacional MySQL**
+🔗 - **Integrar com banco de dados relacional MySQL**
 
-🔐 **Implementar autenticação e autorização (Spring Security)**
+🔐 - **Implementar autenticação e autorização (Spring Security)**
 
-🧪 **Criar testes unitários e de integração**
+🧪 - **Criar testes unitários e de integração**
 
-✍️ **Desenvolvido por Roque Tavares**      
+✍️ - **Desenvolvido por Roque Tavares**      
          
 
         
